@@ -1,0 +1,148 @@
+body {
+  background-color: #7096CE;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  color: #e6eaf0;
+  font-family: Tahoma;
+  font-size: 16px;
+  padding: auto;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 1.5em;
+  font-size: 45px;
+}
+
+p {
+  margin-top: 1em;
+}
+
+fieldset {
+  border: none;
+  padding-top: 0.7em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 3em auto;
+  padding: 3em;
+  background-color: #FAFBFD;
+  border-top: 20px solid #485C70;
+  border-radius: 1em;
+  color: #485C70;
+  box-shadow: -10px 3px 10px 4px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif, Tahoma;
+  font-size: 17px;
+}
+
+select {
+  border: none;
+  border-bottom: 2px solid #a6aaad; 
+  color: #485C70;
+  font-family: sans-serif, Tahoma;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+  background-color: #FAFBFD;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: rgb(171, 177, 181);
+  font-size: 15px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+label {
+  display: block;
+  margin: 0.9rem 0;
+}
+
+textarea {
+  border: none;
+  background-color: rgb(230, 230, 230);
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 1.8em;
+  font-family: sans-serif, Tahoma;
+  color: #485C70;
+  font-size: 15px;
+  border-radius: 0.3em;
+  cursor: pointer;
+  outline: none;
+  padding: 6px;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: rgb(144, 152, 157);
+  font-size: 15px;
+  padding: 4px;
+}
+
+#submit-button {
+  border: none;
+  border-radius: 0.4em;
+  color: white;
+  display: block;
+  width: 20%;
+  margin: 1em;
+  height: 1.9em;
+  font-size: 0.9rem;
+  background-color: #485C70;
+  min-width: 100px;
+}
+
+#submit-button:hover {
+  background-color: #2b5e91;
+  cursor: pointer;
+}
+
+#submit-button:active {
+  background-color: #0f1b25;
+  cursor: pointer;
+}
+
+input {
+  color: #485C70;
+  border: none;
+  border-bottom: 2px solid #a6aaad;
+  font-family: sans-serif, Tahoma;
+  font-size: 15px;
+  width: 100%;
+  background-color: #FAFBFD;
+}
+
+input:focus, input:hover {
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  #submit-button {
+    width: 95%;
+  }
+}
+
+
+
+
+
+
